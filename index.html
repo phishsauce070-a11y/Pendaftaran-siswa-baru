@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Selamat datang di pendaftaran online mahasiswa baru untuk universitas X!!</h1>
+    <p>data yang dimasukan dalam form pendaftaran Anda adalah: Nama Lengkap, Tempat Lahir, Tanggal Lahir(hari, bulan, dan tahun), Alamat Rumah, Jenis Kelamin, Asal sekolah, dan nilai UAN. </p>
+    <form action="index.php" method="post">
+        <li>
+        <label for="nama">Masukan Nama Lengkap Anda: <input type="text" id="nama" name="nama">
+        </label>
+        </li>
+        <li>
+        <label for="tempattinggal">Masukan asal usul tempat tinggal Anda: <input type="text" id="tempattinggal" name="tempattinggal">
+        </label>
+        </li>
+        <li>
+        <label for="tanggallahir">Masukan tanggal lahir Anda: <input type="date" id="tanggallahir" name="tanggallahir">
+        </label>
+        </li>
+        <li>
+        <label for="alamat">Masukan alamat rumah Anda: <input type="text" id="alamat" name="alamat">
+        </label>   
+        </li>
+        <li> 
+        <label for="kelamin">Masukan Jenis Kelamin Anda: 
+            <input type="radio" id="kelamin" name="kelamin" value="laki">Laki-laki
+            <input type="radio" id="kelamin" name="kelamin" value="perempuan">Perempuan
+        </label>
+        </li>
+        <li>
+        <label for="sekolah">Masukan asal sekolah Anda: <input type="text" id="sekolah" name="sekolah">
+        </label>
+        </li>
+        <li>
+        <label for="nilai">Masukan Nilai UAN Anda: <input type="text" id="nilai" name="nilai">
+        </label>
+        </li> 
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
